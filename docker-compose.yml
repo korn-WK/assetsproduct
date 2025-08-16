@@ -36,8 +36,8 @@ services:
       - GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET}
       - JWT_SECRET=${JWT_SECRET}
       - JWT_REFRESH_SECRET=${JWT_REFRESH_SECRET}
-      - CLIENT_URL=http://p-inverntory.mfu.ac.th
-      - SERVER_URL=http://p-inverntory.mfu.ac.th
+      - CLIENT_URL=http://p-inventory.mfu.ac.th
+      - SERVER_URL=http://p-inventory.mfu.ac.th
     volumes:
       - ./backend/uploads:/app/uploads
     depends_on:
